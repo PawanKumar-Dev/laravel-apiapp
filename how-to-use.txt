@@ -1,0 +1,34 @@
+Get All Data
+http://127.0.0.1:8000/api/getdata
+->Type GET
+
+
+Add Data
+http://127.0.0.1:8000/api/add
+->Type POST
+->body tab
+->json format
+{
+  "question": "Is Sun a star?"
+}
+
+
+Update Data
+http://127.0.0.1:8000/api/update
+->Type PUT
+->body tab
+->json format
+{
+  "id":"1",
+  "question": "Biggest planet in Solar System?"
+}
+
+
+Delete Data
+http://127.0.0.1:8000/api/delete/2
+->Type DELETE
+
+
+SEARCH DATA
+http://127.0.0.1:8000/api/search/sol
+->Type GET
